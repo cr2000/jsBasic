@@ -1,0 +1,39 @@
+Homework 1:
+
+Write a function that will convert miles to km.
+
+hint: 1 mile = 1.60934km
+
+
+
+Homework 2:
+
+Write a function that will show the winner of a football match by receiving:
+- teamA
+- scoreA
+- teamB
+- scoreB
+
+Show:
+if there is a winner: "WINNER has beaten LOOSER by SCORE:SCORE" 
+if it's a draw "The match was a draw with a score of SCORE:SCORE"
+
+
+
+
+Homework 3:
+
+Write a function, that will take 4 parameters:
+- totalMoneyInATM
+- enteredAmount
+- usersDailyLimit
+- PIN
+
+Inside the function, check if the user has entered his proper PIN number (1234 is the correct combination).
+Then calculate if the users input (enteredAmount), is larger than totalMoneyInATM. If not, continue, if yes, show an alert that "ATM doesn't have enough funds".
+Then calculate if the users input (enteredAmount), is larger than the user's daily limit. If not, continue, if yes, show alert "Daily limit reached".
+If all checks passed, show the user: "You have successfully taken out $AMOUNT1, and you have $AMOUNT2 left."
+
+Hint:
+$AMOUNT1 is the user's input
+$AMOUNT2 is the difference between usersDailyLimit and enteredAmount
